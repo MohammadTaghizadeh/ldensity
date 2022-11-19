@@ -1,0 +1,13 @@
+Package: ldensity
+Type: Package
+Title: Learning about statistcal distributions with compating them with each other.
+Version: 0.1.0
+Author: Mohammd Taghizadeh
+Maintainer: The package maintainer <mtaghizadeh@alumni.ut.ac.ir>
+Description: This package is for learning about statistical distributions.
+License: Apache 
+Encoding: UTF-8
+LazyData: true
+usethis::use_package("ggplot2", "Suggests")
+Imports:
+  ggplot2
