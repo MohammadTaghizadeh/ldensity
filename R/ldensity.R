@@ -26,4 +26,12 @@ lngtedens <- function(a, b, c, d, e = 1){
 
 }
 
+gamma.plot <- function(gshapea, gshapeb, gshapec, gshaped){
+
+  plot(dgamma(seq(-1,20,0.001), gshapea), type = 'l',
+       xlim = c(-1, 19000))
+  lines(dgamma(seq(-1,17,0.001), gshapeb), type = 'l', col = 'red')
+  lines(dgamma(seq(-1,17,0.001), gshapec), type = 'l', col = 'blue')
+  lines(dgamma(seq(-1,17,0.001), gshaped), type = 'l', col = 'green')
+}
 
